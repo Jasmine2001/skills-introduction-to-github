@@ -57,6 +57,28 @@ The following steps will guide you through the process of committing a change on
 6. In this lesson, we'll ignore the other fields and click **Commit changes**.
 7. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
 
+
+## How to start a project found on GItHub!
+### Step 1. Fork(on Github) and Clone(on Local) the project
+``` git clone (clone using the web Url.)```
+### Step 2. Navigate into the project folder
+``` cd ...(file name)```
+> go deep dive into the folder
+``` cd "..."```
+> look into file 
+### Step 3. Set up your Python environment
+``` conda create -n quant-trading python=3.10```
+``` conda activate quant-trading```
+> I prefer using conda
+### Step 4. Install dependencies
+- Check if there's a requirements.txt or environment.yml file. <br>
+```pip install  -r requiremnet.txt```
+- If no such file exists, you can manually install common packages<br>
+```pip install pandas numpy matplotlib yfinance ta-lib (download by yourself)```
+### Step 5. Explore the project structure
+``` dir```
+### Step 6. Run a sample script
+``` python main.py```
 <footer>
 
 <!--
