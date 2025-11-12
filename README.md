@@ -110,6 +110,34 @@ dir
 ```Bash
 python main.py
 ```
+## Adding locally hosted code to GitHub
+
+```Bash
+git init -b main
+```
+Add the files in your new local repository. This stages them for the first commit.
+```
+$ git add
+```
+Commit the files that you've staged in your local repository.
+```
+$ git commit -m "First commit"
+```
+
+### Adding a local repository to GitHub using Git
+At the top of your repository on GitHub's Quick Setup page, click  to copy the remote repository URL.
+![copy-remote-repository-url-quick-setup](https://github.com/user-attachments/assets/27686d4e-6448-4d95-ad1a-c11ea19afbed)
+
+```
+git remote add origin REMOTE-URL
+```
+- To push the changes in your local repository to GitHub, run the following command.
+```
+git push origin main
+```
+
+
+
 
 
 
