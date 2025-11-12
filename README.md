@@ -18,8 +18,20 @@ _Get started using GitHub in less than an hour._
   Start this step by acknowledging the previous step.
   Define terms and link to docs.github.com.
 -->
+## Step 1: Create a repository
+## Step 2: Create a branch
+Branching lets you have different versions of repository at one time.<br>
+**What is a branch?**:
 
-## Step 2: Commit a file
+
+By default, your repository has one branch named ```main``` that is considered to be the definitive branch. You can create additional branches off of ```main``` in your repository.
+![branching](https://github.com/user-attachments/assets/d299ecfd-1bc9-4c90-a953-83395623b46f)
+
+**Createing a branch**
+
+
+## Step 3: Make and commit changes
+
 
 _You created a branch! :tada:_
 
@@ -57,28 +69,50 @@ The following steps will guide you through the process of committing a change on
 6. In this lesson, we'll ignore the other fields and click **Commit changes**.
 7. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
 
+## Step 4. Open a pull request
+Pull requests are the heart of collaboration on GitHub. When you open a pull request, you're proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. Pull requests show diffs, or differences, of the content from both branches. The changes, additions, and subtractions are shown in different colors.
+## Step 5. Merge your pull request
 
-## How to start a project found on GItHub!
+## How to start a project found on GitHub!
 ### Step 1. Fork(on Github) and Clone(on Local) the project
-``` git clone (clone using the web Url.)```
+```Bash 
+git clone (clone using the web Url.)
+```
 ### Step 2. Navigate into the project folder
-``` cd ...(file name)```
+```Bash
+cd ...(file name)
+```
 > go deep dive into the folder
-``` cd "..."```
+```Bash
+cd "..."
+```
 > look into file 
 ### Step 3. Set up your Python environment
-``` conda create -n quant-trading python=3.10```
-``` conda activate quant-trading```
+```Bash
+conda create -n quant-trading python=3.10
+conda activate quant-trading
+```
 > I prefer using conda
 ### Step 4. Install dependencies
 - Check if there's a requirements.txt or environment.yml file. <br>
-```pip install  -r requiremnet.txt```
+```Bash
+pip install  -r requiremnet.txt
+```
 - If no such file exists, you can manually install common packages<br>
-```pip install pandas numpy matplotlib yfinance ta-lib (download by yourself)```
+```Bash
+pip install pandas numpy matplotlib yfinance ta-lib (download by yourself)
+```
 ### Step 5. Explore the project structure
-``` dir```
+```Bash
+dir
+```
 ### Step 6. Run a sample script
-``` python main.py```
+```Bash
+python main.py
+```
+
+
+
 <footer>
 
 <!--
