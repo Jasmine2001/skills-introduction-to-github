@@ -124,7 +124,7 @@ Commit the files that you've staged in your local repository.
 $ git commit -m "First commit"
 ```
 
-### Adding a local repository to GitHub using Git
+## Adding a local repository to GitHub using Git
 At the top of your repository on GitHub's Quick Setup page, click  to copy the remote repository URL.
 ![copy-remote-repository-url-quick-setup](https://github.com/user-attachments/assets/27686d4e-6448-4d95-ad1a-c11ea19afbed)
 
